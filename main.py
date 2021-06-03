@@ -63,5 +63,5 @@ fig.add_trace(
 fig.update_xaxes(title_text='Time (s)')
 fig.update_yaxes(title_text="Acceleration (g)", secondary_y=False)
 fig.update_yaxes(title_text="Pressure (bar)", secondary_y=True)
-fig.show() # plot in new page
-#st.plotly_chart(fig) # plot in the same page
+#fig.show() # plot in new page
+st.plotly_chart(fig) # plot in the same page
